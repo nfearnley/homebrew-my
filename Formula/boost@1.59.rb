@@ -73,6 +73,7 @@ class BoostAT159 < Formula
       install
       threading=multi,single
       link=shared,static
+      warnings=off
     ]
 
     system "./bootstrap.sh", *bootstrap_args
